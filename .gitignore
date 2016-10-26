@@ -1,0 +1,6 @@
+*.pro.user*
+*.qmlproject.user*
+*.qm
+Makefile
+bin/*
+build/*
