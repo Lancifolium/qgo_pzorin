@@ -26,6 +26,7 @@
 #include <QtCore>
 #include <QtNetwork>
 #include "messages.h"
+#include <iostream>
 
 class GameListing;
 class PlayerListing;
@@ -56,7 +57,7 @@ enum ConnectionState {
     PROTOCOL_ERROR,
     ALREADY_LOGGED_IN,
         CONN_REFUSED,
-    HOST_NOT_FOUND,
+    HOST_NOT_FOUND_,
     SOCK_TIMEOUT,
     UNKNOWN_ERROR
 };

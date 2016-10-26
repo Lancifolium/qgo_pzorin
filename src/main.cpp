@@ -24,6 +24,7 @@
 
 #include "mainwindow.h"
 #include "defines.h"
+#include <ctime>
 
 
 struct _preferences preferences;

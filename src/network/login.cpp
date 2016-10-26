@@ -392,7 +392,7 @@ void LoginDialog::slot_receiveConnectionState(ConnectionState newState)
     case CONN_REFUSED:
         QMessageBox::information(this, tr("Connection Refused"), tr("Server may be down"));
         break;
-    case HOST_NOT_FOUND:
+    case HOST_NOT_FOUND_:
     case SOCK_TIMEOUT:
     case UNKNOWN_ERROR:
         QMessageBox::information(this, tr("Can't connect"), tr("Can't connect to host!"));
